@@ -6,6 +6,7 @@
 }
 
 
+
 /* ------- Header -------  */
 
 header {
@@ -42,7 +43,6 @@ header nav ul li {
   background-image: url('../images/glacier.jpg');
   background-size: cover;
   background: no-repeat;
-  text-align: center;
 }
 
 
@@ -54,7 +54,7 @@ footer {
   padding: 10px;
   text-align: center;
   color: white;
-  min-width: 1400px;
+  min-width: 1480px;
   clear: both;
 }
 
@@ -77,7 +77,7 @@ footer img {
 }
 
 .container .photo {
-  margin: 3px;
+  margin: 5px;
 }
 
 .first {
@@ -87,7 +87,6 @@ footer img {
   width: 20%;
   height: 300px;
   max-width: 288px;
-  min-width: 288px;
   float: left;
 }
 
@@ -98,7 +97,6 @@ footer img {
   width: 20%;
   height: 300px;
   max-width: 288px;
-  min-width: 288px;
   float: left;
 }
 
@@ -106,10 +104,9 @@ footer img {
   background: #84ccc7;
   background-image: url('../images/moose.jpg');
   color: white;
-  width: 56%;
+  width: 57.5%;
   height: 300px;
   max-width: 864px;
-  min-width: 830px;
   float: left;
   clear: right;
 }
@@ -120,10 +117,7 @@ footer img {
   color: white;
   width: 57.5%;
   height: 300px;
-  max-width: 864px;
-  min-width: 830px;
   float: left;
-  clear: left;
 }
 
 .fifth {
@@ -133,10 +127,8 @@ footer img {
   width: 20%;
   height: 300px;
   max-width: 288px;
-  min-width: 288px;
   float: left;
 }
-
 .sixth {
   background: #fcdcda;
   background-image: url('../images/canyon-river.jpg');
@@ -144,40 +136,15 @@ footer img {
   width: 20%;
   height: 300px;
   max-width: 288px;
-  min-width: 288px;
   float: left;
 }
 
 .seventh {
   background: #639894;
-  background-image: url('../images/underground.jpg');
+  background-image: url('../images/road.jpg');
   color: white;
-  width: 32%;
+  width: 50%;
   height: 300px;
-  max-width: 470.24px;
-  min-width: 470.24px;
   float: left;
   clear: left;
-}
-
-.eighth {
-  background: #fcdcda;
-  background-image: url('../images/pool.jpg');
-  color: white;
-  width: 32%;
-  height: 300px;
-  max-width: 470.24px;
-  min-width: 470.24px;
-  float: left;
-}
-
-.ninth {
-  background: #fcdcda;
-  background-image: url('../images/gus.jpg');
-  color: white;
-  width: 32.5%;
-  height: 300px;
-  max-width: 463.13px;
-  min-width: 463.13px;
-  float: left;
 }
