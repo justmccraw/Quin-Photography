@@ -9,7 +9,7 @@
 
 header {
     background: white;
-    padding: 30px 0;
+    padding: 20px 0;
     text-align: center;
     position: fixed;
     width: 100%;
@@ -39,4 +39,22 @@ header nav ul li {
   background-image: url('../images/glacier.jpg');
   background-size: cover;
   background: no-repeat;
+}
+
+/* ------- footer -------  */
+footer {
+  background: #639894;
+  padding: 10px;
+  text-align: center;
+  color: white
+}
+
+footer p {
+  padding: 10px;
+  padding-left: 50px;
+  text-align: center;
+}
+
+footer img {
+  width: 30px;
 }
