@@ -5,6 +5,8 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+
+
 /* ------- Header -------  */
 
 header {
@@ -33,6 +35,8 @@ header nav ul li {
     padding: 50px;
 }
 
+
+
 /* ------- Hero Image -------  */
 
 .top-hero {
@@ -40,6 +44,8 @@ header nav ul li {
   background-size: cover;
   background: no-repeat;
 }
+
+
 
 /* ------- footer -------  */
 footer {
