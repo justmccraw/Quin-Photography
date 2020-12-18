@@ -5,7 +5,7 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-/*   Header */
+/* ------- Header -------  */
 
 header {
     background: white;
@@ -31,4 +31,12 @@ header a:hover {
 header nav ul li {
     display: inline;
     padding: 50px;
+}
+
+/* ------- Hero Image -------  */
+
+.top-hero {
+  background-image: url('../images/glacier.jpg');
+  background-size: cover;
+  background: no-repeat;
 }
