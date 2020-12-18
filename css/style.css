@@ -19,7 +19,7 @@ header {
 }
 
 header a {
-  font-weight: normal;
+  font-weight: 300;
   text-transform: capitalize;
   text-decoration: none;
   font-size: 16px;
@@ -48,19 +48,55 @@ header nav ul li {
 
 
 /* ------- footer -------  */
+
 footer {
   background: #639894;
   padding: 10px;
   text-align: center;
-  color: white
+  color: white;
+  min-width: 1480px;
 }
 
 footer p {
+  font-weight: 300;
   padding: 10px;
   padding-left: 50px;
   text-align: center;
+
 }
 
 footer img {
   width: 30px;
+}
+
+/* ------- photography page -------  */
+
+.container {
+  padding-top: 70px;
+}
+
+.first {
+  background: #639894;
+  background-image: url('../images/glacier.jpg');
+  color: white;
+  width: 20%;
+  height: 300px;
+  float: left;
+}
+
+.second {
+  background: #fcdcda;
+  color: white;
+  width: 20%;
+  height: 300px;
+  float: left;
+}
+
+.third {
+  background: #84ccc7;
+  color: white;
+  width: 60%;
+  height: 300px;
+  float: left;
+  clear: right;
 }
