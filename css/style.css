@@ -27,7 +27,7 @@ header a {
   text-transform: capitalize;
   text-decoration: none;
   font-size: 16px;
-  color: navy;
+  color: #243f64;
 }
 
 header a:hover {
@@ -45,6 +45,7 @@ header nav ul li {
 
 .top-hero {
   background-image: url('../images/glacier.jpg');
+  position: relative;
   background-size: cover;
   background: no-repeat;
   text-align: center;
@@ -53,7 +54,20 @@ header nav ul li {
   min-height: 700px;
 }
 
+.hero-title {
+    color: white;
+    position: absolute;
+    top: 32%;
+    right: 25%;
+    z-index: 9999;
+}
 
+span.subheader {
+    color: #fcdcda;
+    position: absolute;
+    top: 70%;
+    right: 33%;
+}
 
 /* ------- footer -------  */
 
