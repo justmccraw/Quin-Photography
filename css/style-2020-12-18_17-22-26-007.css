@@ -59,7 +59,7 @@ header nav ul li {
 
 footer {
   background: #639894;
-  padding: 5px;
+  padding: 10px;
   width: 100%;
   text-align: center;
   color: white;
@@ -224,7 +224,6 @@ footer img {
 
 .main-photo {
     background-image: url('../images/rock.jpg');
-    margin: 5px;
     width: 50%;
     float: left;
     clear: left;
@@ -232,70 +231,9 @@ footer img {
 
 .main-content {
     background: #243f64;
-    margin: 5px 0;
     padding: 25px;
-    min-height: 740px;
+    min-height: 700px;
     color: white;
-    width: 45.4%;
+    width: 46%;
     float: left;
-}
-
-
-
-/* ------- contact page -------  */
-
-.chat-callout {
-    float: left;
-    text-align: center;
-    width: 100%;
-    padding: 23px;
-    color: white;
-    background: #639894;
-}
-
-
-
-/* ------- contact page form -------  */
-
-.contactform {
-  background: #243f64;
-  color: white;
-  padding: 20px;
-  max-width: 500px;
-  border-radius: 4px;
-  float: left;
-  margin-left: 5px;
-  margin-top: 5px;
-}
-
-.label_input_wrap {
-  display: block;
-}
-
-.reset input,
-.submit input {
-  background: #639894;
-  color: white;
-  padding:5px 20px;
-  display: inline;
-}
-
-.reset,
-.submit {
-  display: inline;
-}
-
-.input {
-  padding: 5px 10px;
-  border-radius: 3px;
-}
-
-.input-section {
-  margin-bottom: 10px;
-}
-
-.select {
-  width: 150px;
-  padding: 8px 0;
-  border-radius: 3px;
 }
